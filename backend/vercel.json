@@ -1,9 +1,13 @@
 {
-    "buildCommand": "",
-    "outputDirectory": "",
     "functions": {
-      "app/index.py": {
+      "api/index.py": {
         "maxDuration": 60
       }
-    }
+    },
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "api/index.py"
+      }
+    ]
   }
