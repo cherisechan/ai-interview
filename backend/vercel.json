@@ -1,0 +1,9 @@
+{
+    "buildCommand": "",
+    "outputDirectory": "",
+    "functions": {
+      "app/index.py": {
+        "maxDuration": 60
+      }
+    }
+  }
