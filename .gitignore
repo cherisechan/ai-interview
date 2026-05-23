@@ -1,0 +1,16 @@
+# dependencies
+node_modules/
+
+# next
+.next/
+
+# python
+venv/
+__pycache__/
+*.pyc
+
+# env
+.env
+
+# mac
+.DS_Store
